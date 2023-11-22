@@ -1,0 +1,8 @@
+# filename: solar_kpi_dashboard/config/config.yaml
+ProjectName: "Solar Panel KPI Dashboard"
+DataSource: "API"  # Possible values: "API", "Database", "LocalFolder", "AzureDataLakeFolder"
+SourcePath: "/path/to/data/source"
+SourceName: "solar_sensor_data"
+DataType: "csv"  # Possible values: "csv", "json", "xml", etc.
+UserName: "user"
+Password: "password"
